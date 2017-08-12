@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hywebfileserver version="1.0">
+    <serverconfig
+        port="8080"
+        root="html"
+        tempdir="temp"
+        logdir="log"
+    />
+   
+    <vdirectory> 
+        <location name="vrview" path="C:/wamp64/htdocs.livechat/www/vrview" />
+        <location name="uploadtest" path="C:/wamp64/htdocs.livechat/www/uploadtest" />
+    </vdirectory>
+
+    <upload dir="G:/Uploads/Uploads" key="123456" dirformat="YMD" baseurl="/Uploads">
+        <item id="audio" dir="G:/Uploads/audio" key="123456" baseurl="/Uploads/audio"/>
+        <item id="image" dir="G:/Uploads/images" key="123456" baseurl="/Uploads/images" />
+        <item id="video" dir="G:/Uploads/videos" key="123456" baseurl="/Uploads/videos" />
+        <item id="document" dir="G:/Uploads/document" key="123456" baseurl="/Uploads/document" />
+    </upload>
+</hywebfileserver>
+

@@ -1,0 +1,253 @@
+body {
+  font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif !important;
+}
+
+html,body{
+    height:100%;
+}
+
+a {
+    color:#ddd;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+    color: #ddd;
+}
+
+.nav-collapse .nav {
+    
+}
+
+.wrap {
+    padding-top: 60px;
+}
+
+.label-title {
+    width: 4.5em;
+    display: inline-block;
+}
+
+.btn-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+}
+
+.file-wrap{
+  float: left;
+  height: 28px;
+  background: #fafafa;
+  width: 160px;
+  position: relative;
+  border: 1px solid #bdbcbd;
+  border-radius: 3px;
+  margin-right: 6px;
+  overflow : hidden;
+  padding-left:3px;
+  padding-right:3px;
+  font-size:13px;
+}
+
+.file-browser{
+  text-align: center;
+  font-size: 14px;
+  height: 22px;
+  line-height: 22px;
+  border:0px;
+  margin-left: 4px;
+  margin-right: 4px;
+  overflow: hidden;
+  padding: 3px 0;
+}
+
+.file-wrap  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.file-wrap:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+
+.fileInput{ 
+position: absolute;
+left: 0;top: 0;height: 30px; 
+filter:alpha(opacity=60);
+opacity:0.6; 
+background-color: transparent;
+}
+
+.note-title {
+    font-weight: bold;
+    color: #79f;
+}
+
+/*toastmessage plugin BEGIN */
+.toast-container {
+	width: 280px;
+	z-index: 999999;
+}
+
+
+* html .toast-container {
+	position: absolute;
+}
+
+.toast-item {
+	height: auto;
+	background: #333;
+    opacity: 0.9;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color: #eee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-family: lucida Grande;
+	font-size: 14px;
+	border: 2px solid #999;
+	display: block;
+	position: relative;
+	margin: 0 0 12px 0;
+}
+
+.toast-item p {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.toast-item-close {
+    background:url(img/toastclose.gif);
+    width:22px;
+    height:22px;
+    position: absolute;
+    top:7px;
+    right:7px;
+	cursor: pointer;
+}
+
+.toast-item-image {
+    width:32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    left: 10px;
+}
+
+.toast-item-image-notice {
+    background:url(img/toastnotice.png);
+}
+
+.toast-item-image-success {
+    background:url(img/toastsuccess.png);
+}
+
+.toast-item-image-warning {
+    background:url(img/toastwarning.png);
+}
+
+.toast-item-image-error {
+    background:url(img/toasterror.png);
+}
+
+/**
+ * toast types
+ *
+ * pattern: toast-type-[value]
+ * where 'value' is the real value of the plugin option 'type'
+ *
+ */
+.toast-type-notice {
+    color: white;
+}
+
+.toast-type-success {
+    color: white;
+}
+
+.toast-type-warning {
+    color: white;
+    border-color: #FCBD57;
+}
+
+.toast-type-error {
+    color: white;
+    border-color: #B32B2B;
+}
+
+/**
+ * positions
+ *
+ * pattern: toast-position-[value]
+ * where 'value' is the real value of the plugin option 'position'
+ *
+ */
+.toast-position-top-left {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.toast-position-top-center {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    margin-left: -140px;
+}
+
+.toast-position-top-right {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.toast-position-middle-left {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    margin-top: -40px;
+}
+
+.toast-position-middle-center {
+    position: fixed;
+    left: 50%;
+    margin-left: -140px;
+    margin-top: -40px;
+    top: 50%;
+}
+
+.toast-position-middle-right {
+    position: fixed;
+    right: 20px;
+    margin-left: -140px;
+    margin-top: -40px;
+    top: 50%;
+}
+
+/*toastmessage plugin END */
+
+.dlg-captionbar {
+    height:24px;
+}
+
+.dlg-caption {
+    display:block;
+    height:24px;
+    line-height:24px;
+    float:left;
+    font-size: 18px;
+}
