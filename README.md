@@ -45,7 +45,7 @@ An Hyper Http file upload server
 - Mail: wenshui2008@126.com
 
 ## Design
-See (docs/)
+See (doc)
 
 
 
