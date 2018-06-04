@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hywebfileserver version="1.0">
     <serverconfig
-        port="8080"
+        port="8021"
         root="html"
         tempdir="temp"
         logdir="log"
     />
    
     <vdirectory> 
-        <location name="vrview" path="C:/wamp64/htdocs.livechat/www/vrview" />
-        <location name="uploadtest" path="C:/wamp64/htdocs.livechat/www/uploadtest" />
+        <location name="videos" path="G:/Uploads/videos" />
+        <location name="images" path="G:/Uploads/images" />
+        <location name="audios" path="G:/Uploads/audio" />
+        <location name="res" path="G:/Uploads" />
     </vdirectory>
 
-    <upload dir="G:/Uploads/Uploads" key="123456" dirformat="YMD" baseurl="/Uploads">
-        <item id="audio" dir="G:/Uploads/audio" key="123456" baseurl="/Uploads/audio"/>
-        <item id="image" dir="G:/Uploads/images" key="123456" baseurl="/Uploads/images" />
-        <item id="video" dir="G:/Uploads/videos" key="123456" baseurl="/Uploads/videos" />
-        <item id="document" dir="G:/Uploads/document" key="123456" baseurl="/Uploads/document" />
+    <upload dir="G:/Uploads" key="123456" dirformat="YMD" baseurl="http://192.168.1.202:8021/res">
+        <item id="audio" dir="G:/Uploads/audio" key="123456" baseurl="http://192.168.1.202:8021/audios"/>
+        <item id="image" dir="G:/Uploads/images" key="123456" baseurl="http://192.168.1.202:8021/images" />
+        <item id="video" dir="G:/Uploads/videos" key="123456" baseurl="http://192.168.1.202:8021/videos" />
+        <item id="document" dir="G:/Uploads/document" key="123456" baseurl="http://192.168.1.202:8021/res/document" />
     </upload>
 </hywebfileserver>
 
