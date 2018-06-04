@@ -21,10 +21,10 @@ An Hyper Http file upload server
         将所有 dir= 变量指向的目录修改为硬盘上实实在在存在的目录
         
 - 第三步：安装服务
-        执行cmd打开命令行窗口按步骤输入以下命令：
-        d:
-        cd hyfileserver
-        HYFileServer.exe -i 
+        执行cmd打开命令行窗口按步骤输入以下命令： <br/>
+        d:  <br/>
+        cd hyfileserver<br/>
+        HYFileServer.exe -i  <br/>   
         
 - 第四步：启动服务
         打开系统的服务管理器，找到Hyper Http Upload Service服务启动它。
@@ -35,7 +35,7 @@ An Hyper Http file upload server
         如果要在其它机器访问，请将127.0.0.1用安装服务器的计算机的IP地址取代。
         如果外部机器还不能访问，看看防火墙是否关闭。
         
-- 第六步：如果要进一步了解上传服务器，请查看 d:\hyfileserver\文件上传服务器使用手册.pdf 文件
+- 第六步：如果要进一步了解上传服务器，请查看 d:\hyfileserver\doc\文件上传服务器使用手册.pdf 文件
 
 - Linux
   执行 hyupdsrv
