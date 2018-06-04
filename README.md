@@ -11,7 +11,7 @@ An Hyper Http file upload server
 - 支持1000个实时并发连接
 - 无缓冲即时写入
 - 支持查看客户在线连接 用 http://ip:port/lists 
-- Compatible with Chrome, FireFox, Safari 10, IE11 and Edge
+- Compatible with Chrome, FireFox, Safari, IE,Opera and Edge
 
 ## Installation
 - 第一步：解压文件到一个硬盘目录，例如d:\hyfileserver
