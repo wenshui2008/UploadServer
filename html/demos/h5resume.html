@@ -107,6 +107,10 @@
 
 .file-object .info-row {
 	overflow: hidden;
+	position: relative;
+	padding-left: 100px;
+	padding: 4px 0 4px 100px;
+	border-bottom: 1px dotted #ccc;
 }
 
 .file-object .info-row span {
@@ -116,14 +120,17 @@
 
 .file-object .info-row span.rlabel {
 	width:100px;
-	float: left;
+	display: block;
+    position: absolute;
+    left: 0;
 }
 
 .file-object .info-row .rvalue {
-    max-width: 70%;
     display: block;
     color: #004302;
-    float: left;
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
 }
 
 .toast {
@@ -455,6 +462,7 @@ function upload_file(fileObj,start_offset,fileid)
 	var fileOfBlob = new File([blob], fileObj.name);
 	//附加的文件数据应该放在请求的前面
 	formData.append('filename', fileObj.name);
+	formData.append('namefixed', "fixed");
 	//必须将fileid信息传送给服务器，服务器只有在获得了fileid信息后才对文件做断点续传处理
 	formData.append('fileid', fileid);
 	//请将文件数据放在最后的域
