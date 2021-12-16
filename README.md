@@ -39,9 +39,10 @@ An Hyper Http file upload server
 
 ## Linux 安装
 - 首先进入到所在目录，执行 chmod 755 ./hyupdsrv  <br>
-- 修改配置文件，cp conf/config-linux.xml conf/config.xml 并正确设置上传目录与监听端口
+- 修改配置文件，<br/>
+  cp conf/config-linux.xml conf/config.xml 并正确设置上传目录与监听端口
 - 添加文件上传目录
-- 启动上传服务进程：
+- 启动上传服务进程：<br/>
   ./hyupdsrv  <br>
 - 如果要作为守护进程，执行  <br>
   ./hyupdsrv -d
