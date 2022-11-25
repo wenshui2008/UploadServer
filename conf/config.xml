@@ -17,7 +17,7 @@
     <upload dir="G:/Uploads" key="123456" dirformat="YMD" baseurl="http://192.168.1.202:8021/res">
         <item id="audio" dir="G:/Uploads/audio" key="123456" baseurl="http://192.168.1.202:8021/audios"/>
         <item id="image" dir="G:/Uploads/images" key="123456" baseurl="http://192.168.1.202:8021/images" />
-        <item id="video" dir="G:/Uploads/videos" key="123456" baseurl="http://192.168.1.202:8021/videos" />
+        <item id="video" dir="G:/Uploads/videos" key="123456" baseurl="http://192.168.1.202:8021/videos" allow=".mp4;.mpg;.dat;.jpg"/>
         <item id="document" dir="G:/Uploads/document" key="123456" baseurl="http://192.168.1.202:8021/res/document" />
     </upload>
 </hywebfileserver>
